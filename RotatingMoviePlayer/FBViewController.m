@@ -28,7 +28,7 @@
     };
     
     self.moviePlayerController = [[FBMoviePlayerController alloc]
-                                           initWithContentURL:[NSURL URLWithString:@"http://videos.sapo.pt/sl2RhMW2OoSOlacLWSFB/mov/1"]];
+                                           initWithContentURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"]];
     
     self.moviePlayerController.view.frame = videoRect;
     self.moviePlayerController.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleLeftMargin |
